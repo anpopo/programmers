@@ -2,7 +2,7 @@ package hash;
 
 import java.util.*;
 
-public class Hash_1_2021_01_13 {
+public class Hash_1 {
 	public String solution() {
 
 		String answer = "";
@@ -36,7 +36,7 @@ public class Hash_1_2021_01_13 {
 		String[] participant = {"5", "2", "3", "5", "5", "6", "5","3", "2", "3", "5", "5", "6", "5","3"};
 		String[] completion = {"5", "2", "3", "5", "6", "5","3", "2", "3", "5", "6", "5","3", "5"};
 		
-		
+		 
 		
         Map<String, Integer> map = new HashMap<String, Integer>();
         for (String p : participant) {
